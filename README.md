@@ -1,6 +1,6 @@
 # Lab: MVCC Implementation Details
 
-This lab will continue our running example of the double entry accounting system we started with the [lab-consistency]() and [lab-transactions]().
+This lab will continue our running example of the double entry accounting system we started with the [lab-consistency](https://github.com/mikeizbicki/lab-consistency) and [lab-transactions](https://github.com/mikeizbicki/lab-transactions).
 In this lab, you will:
 1. observe how modifying data creates dead tuples,
 2. learn about the HOT tuple update optimization,
@@ -282,8 +282,7 @@ For our purposes right now, there are two important things to know about the HOT
 
 > **Note:**
 > HOT tuples are described in detail in [Chapter 7 of our textbook](http://www.interdb.jp/pg/pgsql07.html).
-> ~~For the final exam, you are responsible for understanding how HOT tuples work in detail, but we will not be going over them in lecture.~~
-> No final exam this semester :)
+> For the final exam, you are responsible for understanding how HOT tuples work in detail.
 
 <!--
 ```
@@ -677,5 +676,5 @@ root@294274f36cc2:/var/lib/postgresql/data# ls -l base/13481/16425*
 
 This material is not normally taught in college CS classes because it is difficult to design problem sets that will assess a student's understanding.
 Nevertheless, it is important material that is required for understanding real-world large scale systems.
-Therefore, we're covering the material in class, ~~and you're responsible for this material in the final exam,~~ but there's no "real" submission.
+Therefore, we're covering the material in class, and you're responsible for this material in the final exam, but there's no "real" submission.
 To submit the lab, just write 1 short paragraph into Canvas about what you learned.
